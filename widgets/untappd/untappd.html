@@ -1,0 +1,24 @@
+<div class="avatar">
+  <h1 class = "title" data-bind="untappd_username"></h1>
+    <img data-bind-src="untappd_avatar"/>
+</div>
+
+<div class="stats">
+        <h1>Stats</h1>
+        <p>Unique Beers : <p data-bind="untappd_uniquebeers"></p></p>
+        <p>Badges :</p><p data-bind="untappd_badges"></p>
+</div>
+
+<div class="lastbeer">
+        <h1>Lastest Beer</h1>
+        <img data-bind-src="untappd_latest_beer_label"/>
+        <p data-bind="untappd_latest_beer_brewery"></p>
+        <p data-bind="untappd_latest_beer_name"></p>
+        <p data-bind="untappd_latest_beer_myrating"></p>
+</div>
+
+<div class="lastbadge">
+        <h1>Latest Badge</h1>
+        <img data-bind-src="untappd_latest_badge_image"/>
+        <p data-bind="untappd_latest_badge"/>
+</div>
