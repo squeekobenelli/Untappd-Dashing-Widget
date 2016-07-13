@@ -5,7 +5,7 @@ Amend jobs/untappd.rb to add in your Client ID & Client Secret (obtained by <a h
 <br/>
 The job updates every 5 minutes and displays the user profile with Total Unique Beers, Total Badges, and a display for the latest beer and the latest badge. <br/>
 <br/>
-![Screenshot](https://squeekobenelli.github.io/images/untappd_widget.png)
+![Screenshot](http://squeekobenelli.github.io/images/untappd_widget.png)
 
 
 
