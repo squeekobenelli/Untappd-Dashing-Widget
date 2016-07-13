@@ -4,22 +4,45 @@
 $background-color:  #ffcc00;
 $value-color:       #fff;
 
-$title-color:       rgba(255, 255, 255, 0.7);
+$title-color:       rgba(51, 52, 18, 0.7);
 $label-color:       rgba(255, 255, 255, 0.7);
 $moreinfo-color:    rgba(255, 255, 255, 0.7);
 
 // ----------------------------------------------------------------------------
-// Widget-untappd styles
+// Widget-list styles
 // ----------------------------------------------------------------------------
 .widget-untappd {
 
   background-color: $background-color;
   vertical-align: top;
 
-  .title {
-    color: $title-color;
+  .summary{
+    float:left;
+    width:40%;
   }
 
+  .avatarimage{
+    -webkit-border-radius: 50em;
+    -moz-border-radius: 50em;
+    border-radius: 50em;
+  }
+  .lastbadge{
+    float:right;
+    width:30%;
+    font-size: 80%;
+  }
+  .lastbeer{
+    float:left;
+    width:30%;
+    font-size: 80%;
+  }
+  .title {
+    color: $title-color;
+    font-size: 90%;
+  }
+  img {
+    margin-bottom: 10px;
+  }
   ol, ul {
     margin: 0 15px;
     text-align: left;
@@ -29,6 +52,7 @@ $moreinfo-color:    rgba(255, 255, 255, 0.7);
   ol {
     list-style-position: inside;
   }
+
 
   li {
     margin-bottom: 5px;
@@ -56,5 +80,5 @@ $moreinfo-color:    rgba(255, 255, 255, 0.7);
   .more-info {
     color: $moreinfo-color;
   }
-
+  
 }
