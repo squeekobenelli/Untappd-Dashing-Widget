@@ -1,25 +1,27 @@
-<div class="avatar">
-    <img data-bind-src="untappd_avatar"/>
-</div>
+<div class="summary">
+        <div class="avatar">
+                <a data-bind-href="untappd_url">
+                        <h1 class="title" data-bind="untappd_username"></h1>
+                        <img class="avatarimage" data-bind-src="untappd_avatar"/>
+                </a>
+        </div>
 
-<div class="profile">
-        <a data-bind-href="untappd_url">
-                <h1 class="title" data-bind="untappd_username"></h1>
-        </a>
-        <ul class="list-nostyle">
-                <li>
-                        <span class="label">Unique Beers : </span>
-                        <span class="value" data-bind="untappd_uniquebeers"></span>
-                </li>
-                <li>
-                        <span class="label">Badges : </span>
-                        <span class="value" data-bind="untappd_badges"></span>
-                </li>
-        </ul>
+        <div class="profile">
+                <ul class="list-nostyle">
+                        <li>
+                                <span class="label">Unique Beers : </span>
+                                <span class="value" data-bind="untappd_uniquebeers"></span>
+                        </li>
+                        <li>
+                                <span class="label">Badges : </span>
+                                <span class="value" data-bind="untappd_badges"></span>
+                        </li>
+                </ul>
+        </div>
 </div>
 
 <div class="lastbeer">
-        <h1>Lastest Beer</h1>
+        <h1 class="title">Lastest Beer</h1>
         <img data-bind-src="untappd_latest_beer_label"/>
         <p data-bind="untappd_latest_beer_brewery"></p>
         <p data-bind="untappd_latest_beer_name"></p>
@@ -27,7 +29,9 @@
 </div>
 
 <div class="lastbadge">
-        <h1>Latest Badge</h1>
+        <h1 class="title">Latest Badge</h1>
         <img data-bind-src="untappd_latest_badge_image"/>
         <p data-bind="untappd_latest_badge"/>
 </div>
+
+
